@@ -266,3 +266,4 @@ service-cube.log.*
 # shade xml
 **/dependency-reduced-pom.xml
 data/
+.kys
