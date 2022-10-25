@@ -10,6 +10,7 @@ object SparkSessionize {
       .setAppName("spark-sessionize-job")
       .set("spark.sql.adaptive.enabled", "true"))
     .getOrCreate()
+  spark.sparkContext.setLogLevel("WARN")
   import spark.implicits._
 
   val isDebug = false
